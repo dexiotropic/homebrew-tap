@@ -1,25 +1,25 @@
 class Kubenv < Formula
   desc "Strict variable substitution for Kubernetes manifests"
   homepage "https://github.com/dexiotropic/kubenv"
-  version "0.4.1"
+  version "0.4.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.1/kubenv_kubenv_0.4.1_darwin_arm64.tar.gz"
-      sha256 "7a9718ec35f32a117366b5102f243624cb27c6f01f24a050329e9b0144fe6f88"
+      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.2/kubenv_kubenv_0.4.2_darwin_arm64.tar.gz"
+      sha256 "812e88f7f7b53c0dcebdf2b32a31575deb7b087836586d9ddaf242f58a2093e8"
     else
-      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.1/kubenv_kubenv_0.4.1_darwin_amd64.tar.gz"
-      sha256 "b94f7c665dad7ed82a193214e8b96c51e4d7a59f75cd8569f5503c735ff728e8"
+      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.2/kubenv_kubenv_0.4.2_darwin_amd64.tar.gz"
+      sha256 "bfe9b91ea11d7666323948cdd9bb382d17f6d4c841696999b6d4620259bf6107"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.1/kubenv_kubenv_0.4.1_linux_arm64.tar.gz"
-      sha256 "d5d438607fb6ca483efda38b587beb5626c453d01c871e8bc4da224a4c6c7404"
+      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.2/kubenv_kubenv_0.4.2_linux_arm64.tar.gz"
+      sha256 "aaeeae460582110fe6c2918fd70b41ad089d4d5b625b9d64cabae3824c966c8e"
     else
-      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.1/kubenv_kubenv_0.4.1_linux_amd64.tar.gz"
-      sha256 "e55d9b72a2a099cb90625d53a0f4d9f0d93e8271ec1d1ad50338c93abb3595bd"
+      url "https://github.com/dexiotropic/kubenv/releases/download/v0.4.2/kubenv_kubenv_0.4.2_linux_amd64.tar.gz"
+      sha256 "d76ad4ac4288e3646677b2972a02bc40ff6b2af8e8795de49c8f5b4f7763f501"
     end
   end
 
